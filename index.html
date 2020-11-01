@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="height=device-height">
+    <title>Редактирование (корректура) текста онлайн</title>
+    <link rel="stylesheet" href="markup/header.css">
+    <link rel="stylesheet" href="markup/main.css">
+
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+    <meta name="HandheldFriendly" content="true"/>
+</head>
+<body>
+<header class="head">
+    <div class="mobile__menu-button">
+        <div class="mobile__menu-line">
+            <div class="menu__line-1 menu__line" ></div>
+            <div class="menu__line-2 menu__line"></div>
+            <div class="square"></div>
+        </div>
+    </div>
+    <div class="navigation">
+        <div class="menu">
+            <img src="img/cr_logo_w.svg" alt="logo">
+
+            <div class="menu__buttons">
+                <a class="menu__link button__style-font" href="">Про нас</a>
+                <a class="menu__link button__style-font" href="">Ціни</a>
+                <a class="menu__link button__style-font" href="">Редактори</a>
+                <a class="menu__link button__style-font" href="">Блог</a>
+            </div>
+        </div>
+        <button class="check__button button__style-font">Перевірити текст</button>
+    </div>
+
+</header>
+<main class="main">
+    <div class="content">
+        <div class="make-order__input">
+            <div class="content__info">
+                <h3>ЗАМОВИТИ РЕДАГУВАННЯ</h3>
+                <p>Виправимо всі помилки, приберемо всі дурниці,
+                    перефразуємо невдалі місця, але сильно текст
+                    не переписуватимемо. Зайвих виправлень не буде.<br>
+                    <a class="about__editing" href="#">Детальніше про редагування...</a></p>
+            </div>
+            <div class="input__fields">
+                <label class="user__info">
+                    <input type="email" required="" value="" class="common__input auto" placeholder="Ваша эл. почта">
+                    <input value="" class="common__input auto" placeholder="Ваше имя">
+                </label>
+                <div class="area">
+                    <label class="text__for-edit">
+                        <textarea class="area__text" placeholder="Уведіть текст або"></textarea>
+                        <span class="symbols__counter">0</span>
+                    </label>
+                    <label class="area__download">завантажте файл
+                        <input type="file" class="input__file" accept=".doc,.docx,application/msword,application/vnd.openxmlformats-officedocument.wordprocessingml.document,.csv, application/vnd.openxmlformats-officedocument.spreadsheetml.sheet, application/vnd.ms-excel,application/msword, application/vnd.ms-excel, application/vnd.ms-powerpoint, text/plain, application/pdf, .rtf, .txt, .pdf, .zip">
+                    </label>
+                </div>
+                <h3>МОВА</h3>
+                <div class="language__choice-buttons">
+                    <label class="language__choice-inputs">
+                        <input name="language__choice" class="language__choice" type="radio" value="0">
+                        Українська
+                    </label>
+                    <label class="language__choice-inputs">
+                        <input name="language__choice" class="language__choice" type="radio" value="1">
+                        Російська
+                    </label>
+                    <label class="language__choice-inputs">
+                        <input name="language__choice" class="language__choice" type="radio" value="2">
+                        Англійська
+                    </label>
+                </div>
+                <label class="description">
+                    <input type="text" placeholder="Стислий коментар або покликання">
+                </label>
+
+
+            </div>
+
+        </div>
+        <div class="make-order__confirm">
+            <div class="sticky__menu">
+                <div class="order_cost">
+                    <div class="number">0,00 грн</div>
+                    <div class="time">0 <br> 0</div>
+                </div>
+                <div class="order__button">Замовити</div>
+            </div>
+        </div>
+    </div>
+    <div class="mobile__menu">
+        <div class="menu__mobile-buttons">
+            <a class="menu__link button__style-font" href="">Про нас</a>
+            <a class="menu__link button__style-font" href="">Ціни</a>
+            <a class="menu__link button__style-font" href="">Редактори</a>
+            <a class="menu__link button__style-font" href="">Блог</a>
+            <a class="menu__link button__style-font check__button-mini" href="">Перевірити текст</a>
+        </div>
+    </div>
+</main>
+<footer class="foot">
+
+</footer>
+</body>
+<script src="js/logic.js"></script>
+<script src="js/mobileMenu.js"></script>
+</html>
